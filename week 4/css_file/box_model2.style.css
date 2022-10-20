@@ -1,0 +1,28 @@
+#example1 {
+    background-image: url(../img/background_image.jpg);
+    border: 5px solid red;
+    width: 200px;
+    margin: 20;
+    padding: 100px;
+    background-size: cover;
+  }
+
+  #example2 {
+    background-image: url(../img/Android-Logo-2008.png);
+    border: 5px solid red;
+    width: 200px;
+    margin: 20;
+    padding: 50px;
+    background-size: 20px;
+    
+  }
+
+h2{ color: blue;
+    text-align: center;
+}
+
+
+p{ color:blue;
+   text-align: center;
+}
+  
