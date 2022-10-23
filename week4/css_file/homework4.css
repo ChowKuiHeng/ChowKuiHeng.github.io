@@ -1,0 +1,47 @@
+ .container{
+    display: flex;
+  }
+  
+  .container div {
+    flex: 1;
+  }
+
+  #example1 {
+    margin-block: 100px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    color: white;
+    text-align: center
+  
+  
+
+ 
+  
+    }
+
+  #example2 {
+    margin-block: 100px;
+    border-right: 2px solid white;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    }
+
+    body {
+      background-color: black;
+      margin-left: 100dp;
+      margin-right: 100dp;
+      margin-bottom: 100dp;
+      margin-top: 100dp;
+  }
+  
+  h1 {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+}
+   
+   
