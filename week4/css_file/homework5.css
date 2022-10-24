@@ -1,0 +1,112 @@
+.container{
+    display: flex;
+    
+  }
+  
+  .container div {
+    flex: 1;
+  }
+  .container_text{
+    display: flex;
+  }
+  
+  .container_text{
+    flex: 1;
+  }
+  
+  #heading1 {
+    border: solid black 8px;
+    border-top: none;
+    text-align: center;
+    padding: 1px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 100px;
+    font-family: 'Poppins', sans-serif;
+    
+    }
+  
+    #picture1 {
+        background-image: url(/week4/img/picture_homework5.png);
+        background-repeat: no-repeat;
+        margin-left: 20px;
+        height: 200px;
+        background-position: center;
+        margin: 20;
+        background-size: contain;
+    }
+
+    #picture2 {
+        background-image: url(/week4/img/picture_homework5.1.png);
+        background-repeat: no-repeat;
+        margin-left: 20px;
+        height: 200px;
+        background-position: center;
+        margin: 20;
+        background-size: contain;
+      }
+
+      #picture3 {
+        background-image: url(/week4/img/picture_homework5.2.png);
+        background-repeat: no-repeat;
+        margin-left: 20px;
+        height: 200px;
+        background-position: center;
+        margin: 20;
+        background-size: contain;
+    
+      }
+  
+      #text1{
+        font-size: smaller;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+        font-family: 'Questrial', sans-serif;
+      }
+      #text2{
+        font-size: smaller;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+        font-family: 'Questrial', sans-serif;
+      }
+      #text3{
+        font-size: smaller;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+        font-family: 'Questrial', sans-serif;
+      }
+
+      h1 {
+      font-size: 50px;
+      }
+  
+      h2 {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Merriweather Sans', sans-serif;
+        
+      } 
+
+      h3 {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Merriweather Sans', sans-serif;
+
+      }
+
+      h4 {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Merriweather Sans', sans-serif;
+        
+      }
+ 
