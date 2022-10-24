@@ -17,8 +17,8 @@
   #example1 {
     text-align: center;
     color: white;
-    border-left: 3px solid white;
-    border-right: 3px solid white;
+    border-left: 2.5px solid white;
+    border-right: 2.5px solid white;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 8%;
@@ -26,19 +26,20 @@
     }
 
     #example2 {
-      border-right: 3px solid white;
+      border-right: 2.5px solid white;
       padding-left: 3%;
       padding-right: 3%;
-      width: fit-content;
     }
   
   h1 {
+      padding-top: 10%;
       font-size: 50px;
-      font-family: 'Playfair Display', serif;
+      font-family: 'Slabo 27px', serif;
   }
   
   p {
-      font-family: 'Open Sans', sans-serif;
-      font-size: 22px;
+      font-size: 20px;
+      padding-left: 5%;
+      font-family: 'Quicksand', sans-serif;
   }  
    
