@@ -1,0 +1,87 @@
+#container {
+    background-color: #F1F1F1;
+    max-width: 1024px;
+    margin: auto;
+}
+
+.header {
+    background-color: #F1F1F1;
+    border: solid black 2px;
+    text-align: center;
+    padding: 20px;
+}
+
+#name {
+    margin-top: 1px;
+}
+
+.topnav {
+    display: flex;
+    background-color: #333;
+    justify-content: space-between;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navlink {
+    display: flex
+}
+
+#menu {
+    display: flex;
+}
+
+/* Row */
+.row {
+    display: flex;
+}
+
+/* Column */
+.column {
+    width: 33.33%;
+}
+
+#column1 {
+    width: 25%;
+}
+
+/* Responsive layout - makes the three */
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+}
+
+/* Row */
+.row {
+    display: flex;
+  }
+  
+  /* Row */
+  .column {
+    width: 33.33%;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  
+  

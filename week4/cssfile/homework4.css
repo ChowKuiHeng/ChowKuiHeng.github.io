@@ -27,8 +27,9 @@
 
     #example2 {
       border-right: 2.5px solid white;
-      padding-left: 3%;
-      padding-right: 3%;
+      padding-left: 6%;
+      padding-right: 6%;
+      width: 30px;
     }
   
   h1 {
