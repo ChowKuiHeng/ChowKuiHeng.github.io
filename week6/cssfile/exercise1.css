@@ -23,7 +23,7 @@
 .topnav a {
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 10px;
     text-decoration: none;
 }
 
@@ -34,9 +34,12 @@
 
 .container1 {
     position: relative;
-    display: flex;
     max-width: 1024px;
     margin: auto;
+}
+
+#image{
+    opacity: 0.6;
 }
 
 .center{
@@ -76,6 +79,7 @@
     text-align: center;
     font-size: 10px;
     color: white;
+    
 }
 
 .bottomright{
