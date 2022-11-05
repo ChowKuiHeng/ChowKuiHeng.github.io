@@ -1,36 +1,36 @@
-.item1 {
+.logo {
   grid-area: logo;
 }
 
-.item2 {
+.menu {
   grid-area: menu;
 }
 
-.item3 {
+.img {
   grid-area: image;
 }
 
-.item4 {
+.img1 {
   grid-area: feat1;
 }
 
-.item5 {
+.img2 {
   grid-area: feat2;
 }
 
-.item6 {
+.img3 {
   grid-area: feat3;
 }
 
-.item7 {
+.sidebar {
   grid-area: sidebar;
 }
 
-.item8 {
+.textcontent {
   grid-area: textcontent;
 }
 
-.item9 {
+.footer {
   grid-area: footer;
 }
 
