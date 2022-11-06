@@ -63,7 +63,7 @@ body {
 }
 
 .button1 {
-    background-image: url(/week6/img/Rectangle\ 8@2x.png);
+    background-image: url(/week6/img/Rectangle8@2x.png);
     background-repeat: no-repeat;
     padding-bottom: 20px;
 }
@@ -106,7 +106,7 @@ body {
         'mouse mouse mouse mouse mouse mouse'
     ;
     text-align: center;
-    background-image: url(/week6/img/Bg\ Shape@2x.png);
+    background-image: url(/week6/img/BgShape@2x.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: top right;
