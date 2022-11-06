@@ -1,0 +1,118 @@
+body {
+    margin: 0%;
+}
+
+.logo {
+    grid-area: logo;
+    display: flex;
+    justify-content: left;
+    margin-left: 200px;
+}
+
+#textlogo {
+    margin-top: 35px;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+.topnav {
+    grid-area: topnav;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+    font-size: 15px;
+}
+
+.topnav a {
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    margin-top: 90px;
+    padding-left: 100px;
+    grid-area: content;
+    text-align: left;
+    font-size: 30px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 80px;
+    margin-top: 250px;
+}
+
+
+#title1 {
+    margin-bottom: 0%;
+}
+
+#title2 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#text1 {
+    margin-top: 2%;
+    margin-bottom: 4%;
+    font-size: 15px;
+}
+
+.button1 {
+    background-image: url(/week6/img/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+#btntext {
+    margin: auto;
+    margin-left: 6%;
+    font-size: 16px;
+    color: white;
+}
+
+.image1423 {
+    grid-area: image1423;
+}
+
+#group1423{
+    width: 65%;
+    height: auto;
+}
+
+.mouse {
+    grid-area: mouse;
+}
+
+#btnmouse {
+    border-radius: 48%;
+    width: 30px;
+    height: 45px;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-shadow: 8px 8px 20px gray;
+}
+
+.container1 {
+    display: grid;
+    grid-template-areas:
+        'logo logo logo topnav topnav topnav'
+        'sidebar content content image1423 image1423 image1423'
+        'mouse mouse mouse mouse mouse mouse'
+    ;
+    text-align: center;
+    background-image: url(/week6/img/Bg\ Shape@2x.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top right;
+}
+
+.button1 a{
+    text-decoration: none;
+    color: white;
+}
