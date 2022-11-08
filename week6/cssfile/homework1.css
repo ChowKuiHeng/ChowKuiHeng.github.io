@@ -2,6 +2,21 @@ body {
     margin: 0%;
 }
 
+.main {
+    background-image: url(/week6/img/BgShape@2x.png);
+    height: 700px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+}
+
 .logo {
     grid-area: logo;
     display: flex;
@@ -15,77 +30,104 @@ body {
     font-size: 40px;
 }
 
+
 .topnav {
     grid-area: topnav;
-    margin: auto;
-    margin-top: 40px;
     display: flex;
-    gap: 30px;
+    width: 100%;
+    margin-top: 35px;
+    margin-right: 50px;
     font-size: 15px;
+    gap: 10px;
 }
 
 .topnav a {
-    text-decoration: none;
     color: white;
+    padding: 10px 10px;
+    text-decoration: none;
 }
 
-.content {
-    margin-top: 90px;
+.container {
+    display: grid;
+    grid-template-areas:
+        'logo logo topnav'
+    ;
+}
+
+.container1 {
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
     padding-left: 100px;
-    grid-area: content;
     text-align: left;
-    font-size: 30px;
+    font-size: 20px;
 }
 
-.sidebar {
-    grid-area: sidebar;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    padding-left: 80px;
-    margin-top: 250px;
+.header {
+    position: absolute;
+    top: 80px;
+    left: -80px;
+    text-align: left;
+
 }
 
-
-#title1 {
+#headertext {
     margin-bottom: 0%;
+    font-size: 40px;
 }
 
-#title2 {
+#headertext1 {
     margin-top: 0%;
     margin-bottom: 0%;
+    font-size: 60px;
 }
 
 #text1 {
     margin-top: 2%;
-    margin-bottom: 4%;
     font-size: 15px;
 }
 
+.sidebar {
+    position: absolute;
+    grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: auto;
+    margin-top: 230px;
+}
+
 .button1 {
+    position: relative;
+    margin-top: 10px;
     background-image: url(/week6/img/Rectangle8@2x.png);
     background-repeat: no-repeat;
-    padding-bottom: 20px;
+    height: 200px;
 }
 
 #btntext {
-    margin: auto;
-    margin-left: 6%;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 7%;
     font-size: 16px;
     color: white;
+    text-decoration: none;
 }
 
-.image1423 {
-    grid-area: image1423;
+.header {
+    grid-area: header;
 }
 
-#group1423{
-    width: 65%;
-    height: auto;
+.logo1 {
+    grid-area: logo1;
 }
 
 .mouse {
-    grid-area: mouse;
+    max-width: 1500px;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    width: 100%;
 }
 
 #btnmouse {
@@ -101,18 +143,198 @@ body {
 .container1 {
     display: grid;
     grid-template-areas:
-        'logo logo logo topnav topnav topnav'
-        'sidebar content content image1423 image1423 image1423'
-        'mouse mouse mouse mouse mouse mouse'
+        'sidebar header header header logo1'
+
+    ;
+}
+
+.container2 {
+    margin-top: 170px;
+}
+
+.container2 {
+    display: grid;
+    grid-template-areas:
+        'logo1 logo1  text1 text1 text1'
     ;
     text-align: center;
-    background-image: url(/week6/img/BgShape@2x.png);
+    background-image: url(/week6/img/whowearebackground@2x.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: top right;
 }
 
-.button1 a{
-    text-decoration: none;
+
+.text1 {
+    margin-top: 100px;
+}
+
+#bio {
+    text-align: left;
+}
+
+#header {
+    text-align: left;
+}
+
+#text2 {
+    text-align: left;
+}
+
+.seemore {
+    position: relative;
+    margin-top: 40px;
+    background-image: url(/week6/img/Rectangle8@2x.png);
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+
+#btnseemore {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -205px;
+    font-size: 16px;
     color: white;
+    text-decoration: none;
+}
+
+#service {
+    margin-top: 80px;
+    margin-left: 170px;
+
+}
+
+#header1 {
+    margin-left: 170px;
+    font-size: 40px;
+    margin-top: 8px;
+}
+
+
+.mainservice {
+    position: relative;
+    display: flex;
+    margin-top: -120px;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.mainservice1 {
+    position: relative;
+    display: flex;
+    max-width: 1500px;
+    margin: auto;
+
+}
+
+.buttonsee1 {
+    background-image: url(/week6/img/Rectangle8@2x.png);
+    position: absolute;
+    left: 200px;
+    bottom: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 150px;
+}
+
+.buttonsee2 {
+    background-image: url(/week6/img/Rectangle8@2x.png);
+    position: absolute;
+    right: 500px;
+    bottom: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 150px;
+}
+
+.buttonsee3 {
+    background-image: url(/week6/img/Rectangle8@2x.png);
+    position: absolute;
+    right: 80px;
+    bottom: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 150px;
+}
+
+.buttonsee4 {
+    background-image: url(/week6/img/Rectangle8@2x.png);
+    position: absolute;
+    right: 950px;
+    bottom: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 150px;
+}
+
+.buttonsee5 {
+    background-image: url(/week6/img/Rectangle8@2x.png);
+    position: absolute;
+    right: 80px;
+    bottom: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 150px;
+}
+
+.buttonsee6 {
+    background-image: url(/week6/img/Rectangle8@2x.png);
+    position: absolute;
+    right: 500px;
+    bottom: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 150px;
+}
+
+
+
+.btnmore {
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.backimg {
+    background-image: url(/week6/img/background@2x.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    padding: 100px;
+
+}
+
+
+.box1 {
+    margin-top: 80px;
+    height: 320px;
+    box-shadow: 0px 8px 15px rgba(48, 47, 47, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    background-color: white;
+    flex: 1;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.allimg {
+    text-align: center;
+}
+
+#socialmediapaid {
+    text-align: center;
+}
+
+#contentmarketing {
+    text-align: center;
 }
