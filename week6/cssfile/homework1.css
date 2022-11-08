@@ -216,16 +216,12 @@ body {
     position: relative;
     display: flex;
     margin-top: -120px;
-    max-width: 1500px;
-    margin: auto;
+    max-width: 100%;
 }
 
 .mainservice1 {
     position: relative;
     display: flex;
-    max-width: 1500px;
-    margin: auto;
-
 }
 
 .buttonsee1 {
