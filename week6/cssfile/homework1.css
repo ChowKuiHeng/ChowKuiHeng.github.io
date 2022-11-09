@@ -213,21 +213,19 @@ body {
 
 
 .mainservice {
-    position: relative;
     display: flex;
     margin-top: -120px;
     max-width: 100%;
 }
 
 .mainservice1 {
-    position: relative;
     display: flex;
 }
 
 .buttonsee1 {
     background-image: url(/week6/img/Rectangle8@2x.png);
     position: absolute;
-    left: 200px;
+    right: 35px;
     bottom: 40px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -238,7 +236,7 @@ body {
 .buttonsee2 {
     background-image: url(/week6/img/Rectangle8@2x.png);
     position: absolute;
-    right: 500px;
+    right: 35px;
     bottom: 40px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -249,7 +247,7 @@ body {
 .buttonsee3 {
     background-image: url(/week6/img/Rectangle8@2x.png);
     position: absolute;
-    right: 80px;
+    right: 35px;
     bottom: 40px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -260,7 +258,7 @@ body {
 .buttonsee4 {
     background-image: url(/week6/img/Rectangle8@2x.png);
     position: absolute;
-    right: 950px;
+    right: 35px;
     bottom: 40px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -271,7 +269,7 @@ body {
 .buttonsee5 {
     background-image: url(/week6/img/Rectangle8@2x.png);
     position: absolute;
-    right: 80px;
+    right: 35px;
     bottom: 40px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -282,7 +280,7 @@ body {
 .buttonsee6 {
     background-image: url(/week6/img/Rectangle8@2x.png);
     position: absolute;
-    right: 500px;
+    right: 35px;
     bottom: 40px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -313,6 +311,7 @@ body {
 
 
 .box1 {
+    position: relative;
     margin-top: 80px;
     height: 320px;
     box-shadow: 0px 8px 15px rgba(48, 47, 47, 0.1);
@@ -376,7 +375,7 @@ body {
 
 .buttondetail1 {
     margin-top: 50px;
-   
+
 }
 
 .btndetails {
