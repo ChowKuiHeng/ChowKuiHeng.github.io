@@ -171,6 +171,7 @@ body {
 
 #bio {
     text-align: left;
+    color: blue;
 }
 
 #header {
@@ -202,6 +203,8 @@ body {
 #service {
     margin-top: 80px;
     margin-left: 170px;
+    color: blue;
+    font-size: 18px;
 
 }
 
@@ -353,6 +356,7 @@ body {
 #pricing {
     text-align: center;
     padding-top: 35px;
+    color: blue;
 
 }
 
@@ -461,11 +465,13 @@ input {
 #newsletter {
     margin-top: 100px;
     text-align: center;
+    color: blue;
 }
 
 #specialnews {
-    margin-top: 10px;
+    margin-top: 15px;
     text-align: center;
+    font-size: 30px;
 }
 
 .button5 {
