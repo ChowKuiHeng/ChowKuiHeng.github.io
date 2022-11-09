@@ -341,7 +341,6 @@ body {
 
 .mainpricing {
     padding: 70px;
-    position: relative;
     display: flex;
     margin-top: -100px;
 }
@@ -381,12 +380,12 @@ body {
 .btndetails {
     position: absolute;
     background-image: url(/week6/img/Rectangle8@2x.png);
-    right: 670px;
-    bottom: 110px;
     background-repeat: no-repeat;
     background-size: contain;
     height: 40px;
     width: 150px;
+    margin-left: -75px;
+    margin-top: -5px;
     text-decoration: none;
     font-size: 18px;
     color: white;
