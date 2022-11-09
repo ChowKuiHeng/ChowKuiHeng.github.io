@@ -290,7 +290,13 @@ body {
     width: 150px;
 }
 
-
+.container3 {
+    padding-bottom: 170px;
+    background-image: url(/week6/img/background@2x.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
 
 .btnmore {
     position: absolute;
@@ -302,12 +308,7 @@ body {
 }
 
 .backimg {
-    background-image: url(/week6/img/background@2x.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
     padding: 100px;
-
 }
 
 
@@ -369,7 +370,7 @@ body {
 
 .btnprice {
     font-size: 25px;
-    font-weight: bold;    
+    font-weight: bold;
     color: blue;
 }
 
@@ -413,4 +414,199 @@ body {
     margin-left: 45px;
     margin-right: 45px;
     text-align: center;
+}
+
+input {
+    position: absolute;
+    top: 200px;
+    left: 360px;
+    width: 400px;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 1px solid gray;
+    margin-right: 20px;
+    opacity: 0.3;
+}
+
+.subscribe {
+    position: absolute;
+    top: 200px;
+    left: 840px;
+}
+
+#subs {
+    position: absolute;
+    bottom: 10px;
+    right: 37px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.emailbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.email {
+    background-color: #f6f7fb;
+    padding-left: 50px;
+    padding-right: 300px;
+    border-radius: 15px;
+    color: #b3b4b5;
+}
+
+#newsletter {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#specialnews {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.button5 {
+    margin-top: 3px;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: url(/week6/img/Rectangle8@2x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#btn5text {
+    margin: auto;
+    padding: 50px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.imgcontainer6 {
+    position: relative;
+}
+
+.container6 {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 400px;
+    margin-left: 500px;
+}
+
+
+#logotext {
+    position: absolute;
+    font-size: 35px;
+    top: -70px;
+    left: -170px;
+    color: white;
+}
+
+#staytext {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: -25px;
+    left: -220px;
+}
+
+.quicklinks {
+    position: absolute;
+    top: -65px;
+    left: 100px;
+}
+
+#headerquick {
+    font-size: 18px;
+    color: white;
+    width: 100px;
+
+}
+
+.quick {
+    color: white;
+}
+
+
+
+.footerlogo {
+    position: absolute;
+    display: flex;
+    gap: 30px;
+    top: 50px;
+    left: -210px;
+}
+
+.hours {
+    width: 200px;
+    position: absolute;
+    color: white;
+    top: -65px;
+    left: 300px;
+}
+
+
+#headerhour {
+    font-size: 18px;
+    color: white;
+    top: -65px;
+    left: 100px;
+
+
+}
+
+.week {
+    color: white;
+    top: -65px;
+    left: 100px;
+}
+
+.contact {
+    position: absolute;
+    color: white;
+    top: -65px;
+    left: 550px;
+}
+
+#headercontact {
+    font-size: 18px;
+    color: white;
+}
+
+.contactfooter {
+    margin-top: 20px;
+    width: 200px;
+    display: grid;
+    gap: 20px;
+}
+
+.word {
+    color: white;
+}
+
+.word img {
+    padding-right: 5px;
+}
+
+.background1 {
+    position: absolute;
+    margin-top: -10px;
+
+
+}
+
+.background2 {
+    position: absolute;
+    right: 0;
+    margin-top: 150px;
+}
+
+.boxfooter {
+    margin-top: 30px;
 }
