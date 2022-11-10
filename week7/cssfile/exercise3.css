@@ -1,11 +1,26 @@
-.container{
+.container {
+    position: relative;
     background-color: aqua;
     margin: auto;
-    width: 600px;
-}
-
-.boxsubmit{
-text-align: center;
+    width: 750px;
 }
 
 
+.namebox {
+    width: 47%;
+}
+
+.ph {
+    position: absolute;
+    top: 27%;
+    left: 49%;
+}
+
+.namebox1 {
+    width: 47%;
+    margin: 2px;
+}
+
+.boxsubmit {
+    text-align: center;
+}
