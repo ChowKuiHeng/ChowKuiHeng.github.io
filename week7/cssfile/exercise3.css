@@ -1,3 +1,7 @@
+body{
+
+}
+
 .container {
     position: relative;
     background-color: aqua;
@@ -7,20 +11,47 @@
 
 
 .namebox {
-    width: 47%;
+    width: 45%;
+    padding: 10px 10px;
+
 }
 
-.ph {
-    position: absolute;
-    top: 25.5%;
-    left: 49%;
+.email{
+    display: flex;
+
 }
 
 .namebox1 {
-    width: 47%;
-    margin: 2px;
+    width: 94%;
+    padding: 10px 10px;
+    margin-top: 10px;
+
 }
+
+.namebox2 {
+    width: 45%;
+    padding: 10px 10px;
+    margin-top: 10px;
+
+}
+
+.namebox3 {
+    width: 45%;
+    padding: 10px 10px;
+    margin-top: 10px;
+
+}
+
 
 .boxsubmit {
     text-align: center;
+    margin-top: 10px;
+}
+
+.boximg {
+    background-color: green;
+    border-radius: 30px;
+    padding: 10px 30px;
+    border: none;
+    color: white;
 }
