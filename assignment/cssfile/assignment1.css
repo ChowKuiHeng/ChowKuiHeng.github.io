@@ -245,7 +245,7 @@ body {
 .container4 {
     position: relative;
     border: rgba(113, 201, 206, 0.6) solid 0.5px;
-    height: 730px;
+    height: 830px;
     background: rgba(113, 201, 206, 0.6);
 }
 
@@ -263,14 +263,14 @@ body {
 .textbron {
     font-family: 'Rubik', sans-serif;
     margin-top: 5vw;
-    padding-left: 1vw;
+    padding-left: 4.5vw;
     font-size: 34px;
 }
 
 .textnba {
     position: absolute;
     top: 70%;
-    left: 40%;
+    left: 38%;
 }
 
 .textnba h4 {
