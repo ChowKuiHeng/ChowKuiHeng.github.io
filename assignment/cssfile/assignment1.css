@@ -374,20 +374,59 @@ body {
 @media screen and (max-width: 1155px) {
     .box1 {
         height: fit-content;
+        margin: 15px;
     }
 
     .box2 {
         height: fit-content;
+        margin: 5px;
     }
-} 
+}
 
-@media screen and (max-width: 1155px) {
-    .box1 {
-        height: fit-content;
+@media screen and (max-width: 600px) {
+
+    .container1 {
+        display: block;
+        width: 50%;
     }
 
-    .box2 {
-        height: fit-content;
+    .sidebar {
+        flex-direction: row;
+        position: absolute;
+        top: 92%;
+        left: 30%;
     }
-} 
 
+    .text1 {
+        flex-direction: column;
+        font-size: 20px;
+        margin: auto;
+
+    }
+    .text1 h3 {
+        flex-direction: column;
+        font-size: 20px;
+
+    }
+    .text1 p{
+        flex-direction: column;
+        font-size: 20px;
+
+    }
+
+.face {
+    text-align: center;
+}
+
+.container2 {
+    width: 50%;
+}
+
+.bigbox1{
+    display: block;
+}
+.bigbox2{
+    display: block;
+}
+
+}
