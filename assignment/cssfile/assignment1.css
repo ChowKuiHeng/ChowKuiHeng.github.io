@@ -40,6 +40,7 @@ body {
 }
 
 .text1 {
+    margin-left: 3%;
     font-family: 'Ubuntu', sans-serif;
     font-size: 32px;
 }
@@ -369,6 +370,16 @@ body {
     margin-top: 15px;
     text-decoration: none;
 }
+
+@media screen and (max-width: 1155px) {
+    .box1 {
+        height: fit-content;
+    }
+
+    .box2 {
+        height: fit-content;
+    }
+} 
 
 @media screen and (max-width: 1155px) {
     .box1 {
