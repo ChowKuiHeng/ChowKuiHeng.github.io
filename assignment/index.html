@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Chow Kui Heng</title>
+    <title>Assignment 1</title>
     <link rel="stylesheet" type="text/css" href="cssfile/assignment1.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik&family=Ubuntu&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/ddb030312e.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="header">
       <div class="logo">
-        <img src="img/addidas.png" alt="" width="80px" height="85px" />
+        <img src="img/kuihenglogo.png" alt="" width="70px" height="70px" />
       </div>
-      <div class="topnav">
-        <a href="#">Home</a>
-        <a href="#">About Me</a>
-        <a href="#">My Work</a>
-        <a href="#">My Favourite</a>
-        <a href="#">Contact</a>
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#aboutme">About Me</a>
+        <a href="#mywork">My Work</a>
+        <a href="#myfavourite">My Favourite</a>
+        <a href="#contact">Contact</a>
+        <a class="icon" onclick="openNav()">&#9776; </a>
       </div>
     </div>
     <div class="container1">
+      <div class="face"><img src="img/chowkuiheng.png" width="300px" /></div>
       <div class="text1">
         <h3>Hello</h3>
         <p>I'm <strong>Chow Kui Heng</strong></p>
-        I am a computer science student. Of course, I'm much more<br />than
-        simply a few fancy titles. Scroll down and get to know<br />me
+        <div class="word">
+          I am a computer science student. Of course, I'm much more than simply
+          a few fancy titles. Scroll down and get to know me
+        </div>
 
         <div class="sidebar">
           <a href="#"><img src="img/facebooklogo.png" width="35px" /></a>
@@ -37,17 +42,46 @@
           <a href="#"><img src="img/gmail.png" width="35px" /></a>
         </div>
       </div>
-      <div class="face"><img src="img/chowkuiheng.png" width="360px" /></div>
     </div>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div class="overlay-content">
+        <a href="#">Home</a>
+        <a href="#">About Me</a>
+        <a href="#">My Work</a>
+        <a href="#">My Favourite</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
 
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
     <div class="container2">
       <h2 id="heading">What I Learn This Sem</h2>
       <div class="bigbox1">
         <div class="box1">
-          <h5>Mobile Application <br>Developmet</h5>
+          <h5>Mobile Application <br />Developmet</h5>
           <p>
-            The process of developing software 
-            applications that operate on
+            The process of developing software applications that operate<br> on
             mobile devices
           </p>
           <div class="btndetails0">
@@ -57,8 +91,7 @@
         <div class="box1">
           <h5>Web Design</h5>
           <p id="web">
-            Web design refers to the design of 
-            websites that are displayed on
+            Web design refers to the design of websites that are displayed on
             the internet
           </p>
           <div class="btndetails1">
@@ -67,10 +100,9 @@
         </div>
         <div class="box1">
           <h5>Java Application Development</h5>
-          <p>
-            A Java application is a program
-            written in Java that is executed
-            stand-alone either in a client or a <br>server
+          <p id="java">
+            A Java application is a program written in Java that is executed
+            stand-alone either in a client or a server
           </p>
           <div class="btndetails2">
             <a class="details" href="#">DETAILS</a>
@@ -81,9 +113,9 @@
         <div class="box2">
           <h5>Artificial Intelligence</h5>
           <p id="artificial">
-            Artificial intelligence is the<br>
-            simulation of human intelligence processes by machines,
-            especially computer systems
+            Artificial intelligence is the<br />
+            simulation of human intelligence processes by machines, especially
+            computer systems
           </p>
           <div class="btndetails3">
             <a class="details" href="#">DETAILS</a>
@@ -93,7 +125,7 @@
           <h5>Community Service</h5>
           <p id="community">
             Community service is unpaid work performed by a person or group of
-            people for the benefit of<br>community
+            people for the community
           </p>
           <div class="btndetails4">
             <a class="details" href="#">DETAILS</a>
@@ -103,7 +135,7 @@
           <h5>Computer Architecture & Organization</h5>
           <p>
             Computer Organization and Architecture is the study of internal
-            working, structuring and implementation of a computer<br>
+            working, structuring and implementation of a computer
             system
           </p>
           <div class="btndetails5">
@@ -115,60 +147,59 @@
     <div class="container3">
       <h2 id="home">Hometown</h2>
       <p>Gua Musang</p>
-      <div class="box3">
+      <div class="guabox">
         <img
           class="guamusang"
           src="img/guamusang.jpg"
-          width="325px"
-          height="525px"
+          width="22.5%"
+          height="40%"
         />
         <img
           class="guamusang2"
           src="img/gua_musang2.jpg"
-          width="325px"
-          height="638px"
+          width="22.5%"
+          height="45%"
         />
         <img
           class="guamusang1"
           src="img/guamusang1.jpg"
-          width="325px"
-          height="419px"
+          width="22.5%"
+          height="30%"
         />
-      </div>
-      <div class="box4">
+
         <img
           class="guamusang4"
           src="img/guamusang4.jpg"
-          width="325px"
-          height="515px"
+          width="22.5%"
+          height="35%"
         />
         <img
           class="guamusang3"
           src="img/guamusang3.jpg"
-          width="325px"
-          height="405px"
+          width="22.5%"
+          height="30%"
         />
         <img
           class="guamusang5"
           src="img/guamusang5.jpg"
-          width="325px"
-          height="628px"
+          width="22.5%"
+          height="45%"
         />
       </div>
     </div>
     <div class="container4">
-      <h3>Nba Players I Like</h3>
+      <h4>Nba Players I Like</h4>
       <div class="boxbron">
         <div class="lebron">
-          <img src="img/lebronjames.jpg" width="418px" height="595px" />
+          <img src="img/lebronjames.jpg" width="92%" height="92%" />
         </div>
         <div class="textbron">
           "There's no point in playing in the NBA if you <br />don't believe you
           can win a championship."
-        </div>
-        <div class="textnba">
-          <h4>Lebron James</h4>
-          <p>NBA PLAYER</p>
+        
+            <h3>Lebron James</h3>
+            <p>NBA PLAYER</p>
+          
         </div>
       </div>
     </div>
@@ -203,7 +234,7 @@
     </div>
     <div class="container7">
       <div class="topnav1">
-        <p>Copyright © 2022 All Rights Reserved.</p>
+        <p>Copyright © 2022 All Rights Reserved</p>
         <a href="#">Home</a>
         <a href="#">About Me</a>
         <a href="#">My Work</a>
