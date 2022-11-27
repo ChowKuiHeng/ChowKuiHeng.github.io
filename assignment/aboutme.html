@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chow Kui Heng</title>
+    <link rel="stylesheet" type="text/css" href="cssfile/aboutme.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ddb030312e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="img/kuihenglogo.png" alt="" width="70px" height="70px" />
+      </div>
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#aboutme">About Me</a>
+        <a href="#mywork">My Work</a>
+        <a href="#myfavourite">My Favourite</a>
+        <a href="#contact">Contact</a>
+        <a class="icon" onclick="openNav()">&#9776; </a>
+      </div>
+    </div>
+    <div class="container1">
+      <div class="text1">
+        <h3>About Me</h3>
+        <p>I'm living in <strong>Kelantan</strong></p>
+        <div class="boxflex">
+          <img src="img/KelantanFlag.jpg" alt="" width="30%" />
+          <div class="word">
+            Kelantan is a state in Malaysia. The capital is Kota Bharu and the
+            royal seat is Kupang Kerang. The state's honorific name is Darul
+            Naim (Abode of Happiness"). Kelantan is located on the northeastern
+            corner of the peninsula.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div class="overlay-content">
+        <a href="#">Home</a>
+        <a href="#">About Me</a>
+        <a href="#">My Work</a>
+        <a href="#">My Favourite</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+    <div class="container2">
+      <h2 id="heading">KELANTAN FOOD</h2>
+      <div class="bigbox1">
+        <div class="box1">
+          <h5>Nasi Kerabu</h5>
+          <img src="img/nasikerabu.jpg" width="65%" />
+          <p>
+            Nasi kerabu is a Malaysian rice dish, in which blue rice is served
+            with dried fish or fried chicken
+          </p>
+        </div>
+        <div class="box1">
+          <h5>Kuih Akok</h5>
+          <img src="img/kuihakok.jpg" width="65%" />
+          <p>
+            Kuih akok is a typical Malaysian sweet food from Kelantan and
+            Terengganu. It's often made with eggs, coconut milk and more
+          </p>
+        </div>
+        <div class="box1">
+          <h5>Roti Titab</h5>
+          <img src="img/rotititab.jpg" width="65%" />
+          <p>
+            Roti Titab comes topped with a perfect half-boiled egg, with coconut
+            jam spread on each corner of the bread
+          </p>
+        </div>
+      </div>
+      <div class="bigbox2">
+        <div class="box2">
+          <h5>Nasi Tumpang</h5>
+          <img src="img/nasitumpang.jpg" width="65%" />
+          <p>
+            Nasi tumpang is a rice dish from Kelantan, Malaysia. The rice is
+            wrapped in a cone form with banana leaf
+          </p>
+        </div>
+        <div class="box2">
+          <h5>Laksam</h5>
+          <img src="img/laksam.jpg" width="65%" />
+          <p>
+            Laksam Laksei (Laksang) is a type of common dish from Kelantan and
+            Terengganu. It is made from rice flour and eaten with gravy
+          </p>
+        </div>
+        <div class="box2">
+          <h5>Mee Celup</h5>
+          <img src="img/meecelup.jpg" width="65%" />
+          <p>
+            Mee Celup is a noodle dish from Kelantan.It comes with lime and
+            assorted sauces on the side to enhance the flavour
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container3">
+      <h2 id="home">KELANTAN TOURIST</h2>
+      <div class="guabox">
+        <img
+          class="melawi"
+          src="img/melawibeach.jpg"
+          width="30%"
+          height="49%"
+        />
+        <img
+          class="kualakoh"
+          src="img/kualakohnationalpark.jpg"
+          width="25%"
+          height="59%"
+        />
+        <img
+          class="siti"
+          src="img/sitikhadijahmarket.jpg"
+          width="30%"
+          height="35%"
+        />
+        <img class="kite" src="img/kitemuseum.jpg" width="25%" height="25%" />
+      </div>
+    </div>
+    <div class="container4">
+      <h4>Secondary School</h4>
+      <div class="secondary">
+        <div class="textschool">
+          <p>
+            Name: SMK Tengku Indra Petra 2<br />
+            <br />
+            Address: Jalan Pulai Gua Musang,18300<br />
+            <br />
+            Phone: 09-912 4022
+          </p>
+        </div>
+        <div class="tip2">
+          <img src="img/smktip2.jpg" width="350px" />
+        </div>
+      </div>
+    </div>
+    <div class="container5">
+      <h4>University</h4>
+      <div class="uni">
+        <div class="textuni">
+          <div class="newera">
+            <img src="img/newera.jpg" width="350px" />
+          </div>
+          <p>
+            Name: New Era University College<br />
+            <br />
+            Address: Kolej Universiti New Era, Lot 5,<br />
+            Seksyen 10, Jalan Bukit 43000 Kajang Selangor <br />
+            <br />
+            Phone: 6039732770 <br />
+            <br />
+
+            Email: neuc@newera.edu.my
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container6">
+      <div class="box6">
+        <h4>Get in touch</h4>
+        <button class="contact">Contact</button>
+        <div class="sidebar1">
+          <a href="#"><img src="img/facebooklogo.png" width="35px" /></a>
+          <a href="#"><img src="img/instagram.png" width="35px" /></a>
+          <a href="#"><img src="img/gmail.png" width="35px" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="container7">
+      <div class="topnav1">
+        <p>Copyright © 2022 All Rights Reserved</p>
+        <a href="#">Home</a>
+        <a href="#">About Me</a>
+        <a href="#">My Work</a>
+        <a href="#">My Favourite</a>
+        <a href="#">Contact</a>
+        <p>Term of Use &nbsp;&nbsp;Privacy Policy</p>
+      </div>
+    </div>
+  </body>
+</html>
