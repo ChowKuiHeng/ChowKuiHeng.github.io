@@ -34,7 +34,7 @@ body {
 .container1 {
     display: flex;
     justify-content: space-between;
-    padding: 10px 16px;
+    padding: 10px;
     background-color: #CBF1F5;
     direction: rtl;
 }
@@ -107,7 +107,6 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.9);
     overflow-x: hidden;
     transition: 0.5s;
@@ -157,8 +156,8 @@ body {
 
 
 .container2 {
-    border: rgba(113, 201, 206, 0.6) solid 0.5px;
     background: rgba(113, 201, 206, 0.6);
+    padding: 10px;
 }
     
 #heading {
@@ -295,8 +294,8 @@ body {
 
 .container3 {
     position: relative;
-    border: #CBF1F5 solid 0.5px;
-    height: 1390px;
+    padding: 10px;
+    height: 1370px;
     background: #CBF1F5;
 
 }
@@ -439,7 +438,7 @@ body {
 }
 
 .container4 {
-    border: rgba(113, 201, 206, 0.6) solid 0.5px;
+    padding: 10px;
     background: rgba(113, 201, 206, 0.6);
 }
 

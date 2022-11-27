@@ -32,7 +32,7 @@ body {
 }
 
 .container1 {
-    padding: 10px 16px;
+    padding: 10px;
     background-color: #CBF1F5;
 }
 
@@ -157,7 +157,7 @@ body {
 
 
 .container2 {
-    border: rgba(113, 201, 206, 0.6) solid 0.5px;
+    padding: 10px;
     background: rgba(113, 201, 206, 0.6);
 }
 
@@ -243,7 +243,7 @@ body {
 
 .container3 {
     position: relative;
-    border: #CBF1F5 solid 0.5px;
+    padding: 10px;
     height: 1390px;
     background: #CBF1F5;
 
@@ -362,7 +362,7 @@ body {
 }
 
 .container4 {
-    border: rgba(113, 201, 206, 0.6) solid 0.5px;
+    padding: 10px;
     background: rgba(113, 201, 206, 0.6);
 }
 
@@ -373,10 +373,12 @@ body {
 }
 
 
-.container4 h3 {
-    margin-top: 25%;
+.container4 h4 {
     font-family: 'Rubik', sans-serif;
-    font-size: 24px;
+    font-size: 44px;
+}
+.tip2{
+    margin-bottom: 2%;
 }
 
 .secondary {
@@ -389,6 +391,7 @@ body {
     font-family: 'Rubik', sans-serif;
     padding-left: 2.5%;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .homework {
@@ -398,14 +401,38 @@ body {
 
 .container5 {
     background: #CBF1F5;
+    padding: 10px;
+}
+
+.container5 h4 {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 44px;
+}
+
+.newera{
+    margin-bottom: 2.5%;
 }
 
 .textuni {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
+.newbox{
+    margin-top: 2%;
+    margin-left: 6%;
+}
+
+.newbox p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
 .container6 {
+    padding: 10px;
     background: #363434;
 }
 
