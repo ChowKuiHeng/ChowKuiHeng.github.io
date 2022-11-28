@@ -263,11 +263,11 @@ body {
     text-align: center;
 }
 
-.button{
+.button {
     margin-top: 2%;
 }
 
-.button a{
+.button a {
     font-family: 'Rubik', sans-serif;
     padding: 5px 25px;
     font-size: 14px;
@@ -279,7 +279,7 @@ body {
 }
 
 
-.button a{
+.button a {
     font-family: 'Rubik', sans-serif;
     padding: 5px 25px;
     font-size: 14px;
@@ -290,79 +290,7 @@ body {
     width: fit-content;
 }
 
-@media screen and (max-width: 800px) {
-    .container1 {
-        display: block;
-    }
 
-    .header {
-        width: 100%;
-    }
-
-    .text1 {
-        margin: auto;
-        text-align: center;
-    }
-
-    .word {
-        font-size: 26px;
-    }
-
-    .topnav {
-        margin-left: 55%;
-    }
-
-    .container2 {
-        display: block;
-    }
-
-    .bigbox1 {
-        flex-direction: column;
-        margin: auto;
-    }
-
-    .bigbox2 {
-        flex-direction: column;
-        margin: auto;
-    }
-
-    .container3 {
-        height: auto;
-    }
-
-    .workbox {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .boxbron {
-        display: block;
-        flex-direction: column;
-        margin: auto;
-    }
-
-    .lebron {
-        margin: auto;
-    }
-
-    .textbron {
-        font-size: 14px;
-    }
-
-
-    .homework {
-        display: block;
-        flex-direction: column;
-        margin: auto;
-    }
-
-    .footer {
-        height: auto;
-        display: block;
-        flex-direction: column;
-        margin: auto;
-    }
-}
 
 .container4 {
     padding: 10px;
@@ -423,4 +351,78 @@ body {
     color: black;
     margin-top: 15px;
     text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    .container1 {
+        display: block;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .text1 {
+        margin: auto;
+        text-align: center;
+    }
+
+    .word {
+        font-size: 20px;
+    }
+
+    .topnav {
+        margin-left: 55%;
+    }
+
+    .container2 {
+        display: block;
+    }
+
+    #heading{
+        font-size: 30px;
+    }
+
+    .bigbox1 {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .bigbox2 {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .container3 {
+        height: auto;
+    }
+
+    .workbox {
+        flex-direction: column;
+    }
+
+    .boxbron {
+        display: block;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .lebron {
+        margin: auto;
+    }
+
+    .textbron {
+        font-size: 14px;
+    }
+
+
+    .homework {
+        display: block;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
 }
