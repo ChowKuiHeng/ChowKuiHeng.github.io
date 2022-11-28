@@ -199,7 +199,7 @@ body {
 }
 
 #java {
-    margin-top: 70px;
+    padding-top: 30px;
 }
 
 #web {
@@ -384,7 +384,7 @@ body {
     }
 
     .topnav {
-        margin-left: 55%;
+        margin-left: 53%;
     }
 
     .container2 {
@@ -427,8 +427,8 @@ body {
         margin: auto;
     }
 
-    .textbron {
-        font-size: 14px;
+    .textbron p{
+        font-size: 10px;
     }
 
 
@@ -464,32 +464,38 @@ body {
     font-size: 24px;
 }
 
+.boxbron {
+    display: flex;
+}
+
 .lebron {
-    padding-left: 50px;
+    padding-left: 4%;
+    margin-bottom: 2%;
 }
 
 
 .textbron {
     font-family: 'Rubik', sans-serif;
+    margin-left: 4%;
     margin-top: 6%;
-    padding-left: 2.5%;
     font-size: 34px;
-}
-
-.textbron h3 {
-    font-family: 'Rubik', sans-serif;
-    margin-top: 26%;
-    font-size: 24px;
+    font-weight: bold;
 }
 
 .textbron p {
     font-family: 'Rubik', sans-serif;
-    font-size: 14px;
+    font-size: 34px;
 }
 
-.boxbron {
-    display: flex;
+.smallbox{
+    margin-left: 4%;
+    margin-top: -12%;
 }
+
+.smallbox p{
+  font-weight: bold;
+}
+
 
 .container5 {
     margin-top: 50px;
