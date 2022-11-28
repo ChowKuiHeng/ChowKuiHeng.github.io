@@ -269,28 +269,13 @@ body {
 
 .button a {
     font-family: 'Rubik', sans-serif;
-    padding: 5px 25px;
-    font-size: 14px;
+    padding: 10px 40px;
     text-decoration: none;
     background: #71C9CE;
     color: white;
     font-weight: bold;
     width: fit-content;
 }
-
-
-.button a {
-    font-family: 'Rubik', sans-serif;
-    padding: 5px 25px;
-    font-size: 14px;
-    text-decoration: none;
-    background: #71C9CE;
-    color: white;
-    font-weight: bold;
-    width: fit-content;
-}
-
-
 
 .container4 {
     padding: 10px;
@@ -368,7 +353,9 @@ body {
     }
 
     .word {
-        font-size: 20px;
+        margin-top: 5%; 
+        margin-bottom: 5%;
+        font-size: 18px;
     }
 
     .topnav {
@@ -399,6 +386,14 @@ body {
 
     .workbox {
         flex-direction: column;
+    }
+
+    .workbox img{
+        width: 75%;
+    }
+
+    .button{
+        margin-top: 5%;
     }
 
     .boxbron {
