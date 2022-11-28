@@ -61,9 +61,10 @@ body {
 }
 
 .word {
-    margin: auto;
-    margin-left: 2%;
+    margin-top: 5%;
+    margin-left: 3%;
     font-size: 20px;
+    font-weight: bold;
 }
 
 
@@ -290,6 +291,21 @@ body {
         display: block;
     }
 
+    .boxflex {
+        display: block;
+        flex-direction: column;
+    }
+
+    .boxflex img {
+        margin: 20px;
+        width: 75%;
+    }
+
+    .word {
+        margin: auto;
+        font-size: 16px;
+    }
+
     .header {
         width: 100%;
     }
@@ -301,10 +317,6 @@ body {
 
     .text1 p {
         font-size: 36px;
-    }
-
-    .word {
-        font-size: 26px;
     }
 
     .topnav {
@@ -343,17 +355,50 @@ body {
 
     .secondary {
         display: block;
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin: auto;
     }
 
-    .homework {
+    .textschool {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .textschool p {
+        font-size: 20px;
+    }
+
+
+    .tip2 {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .textuni {
         display: block;
         flex-direction: column;
+    }
+
+    .newera {
+        display: flex;
+        width: 50%;
+        justify-content: center;
         margin: auto;
     }
 
-    n .topnav1 {
+    .newbox {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .newbox p{
+     font-size: 20px;
+    }
+
+    .footer {
         height: auto;
         display: block;
         flex-direction: column;
@@ -377,7 +422,8 @@ body {
     font-family: 'Rubik', sans-serif;
     font-size: 44px;
 }
-.tip2{
+
+.tip2 {
     margin-bottom: 2%;
 }
 
@@ -410,7 +456,7 @@ body {
     font-size: 44px;
 }
 
-.newera{
+.newera {
     margin-bottom: 2.5%;
 }
 
@@ -419,12 +465,12 @@ body {
     justify-content: center;
 }
 
-.newbox{
+.newbox {
     margin-top: 2%;
     margin-left: 6%;
 }
 
-.newbox p{
+.newbox{
     font-family: 'Rubik', sans-serif;
     font-size: 24px;
     font-weight: bold;
@@ -475,7 +521,7 @@ body {
     display: flex;
 }
 
-.topnav1 {
+.footer {
     font-family: 'Rubik', sans-serif;
     display: flex;
     flex: 1;
@@ -485,7 +531,7 @@ body {
     background: #CBF1F5;
 }
 
-.topnav1 a {
+.footer a {
     color: black;
     margin-top: 15px;
     text-decoration: none;
