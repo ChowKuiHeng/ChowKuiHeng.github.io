@@ -517,15 +517,16 @@ body {
     }
 
 
-    .tip2 {
+    .secondary{
         display: flex;
-        justify-content: center;
-        margin: auto;
+       text-align: center;
+        flex-direction: column-reverse;
     }
 
     .textuni {
         display: block;
         flex-direction: column;
+        text-align: center;
     }
 
     .newera {
