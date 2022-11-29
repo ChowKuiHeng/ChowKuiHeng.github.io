@@ -477,9 +477,16 @@ body {
     text-decoration: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .container1 {
         display: block;
+    }
+
+    #heading {
+        font-family: 'Rubik', sans-serif;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 48px;
     }
 
     .header {

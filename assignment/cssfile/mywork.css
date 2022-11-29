@@ -338,9 +338,13 @@ body {
     text-decoration: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .container1 {
         display: block;
+    }
+
+    .gitlogo img{
+        width: 30%;
     }
 
     .header {
@@ -358,8 +362,10 @@ body {
         font-size: 18px;
     }
 
-    .topnav {
-        margin-left: 55%;
+    .icon {
+        position: absolute;
+        right: 5%;
+        top:3.5%;
     }
 
     .container2 {

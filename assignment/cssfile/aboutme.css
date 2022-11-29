@@ -286,10 +286,155 @@ body {
 }
 
 
+
+.container4 {
+    padding: 10px;
+    background: rgba(113, 201, 206, 0.6);
+}
+
+.container4 h4 {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 54px;
+}
+
+
+.container4 h4 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 44px;
+}
+
+.tip2 {
+    margin-bottom: 2%;
+}
+
+.secondary {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+}
+
+.textschool {
+    font-family: 'Rubik', sans-serif;
+    padding-left: 2.5%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.homework {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container5 {
+    background: #CBF1F5;
+    padding: 10px;
+}
+
+.container5 h4 {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 44px;
+}
+
+.newera {
+    margin-bottom: 2.5%;
+}
+
+.textuni {
+    display: flex;
+    justify-content: center;
+}
+
+.newbox {
+    margin-top: 2%;
+    margin-left: 6%;
+}
+
+.newbox {
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.container6 {
+    padding: 10px;
+    background: #363434;
+}
+
+.container6 h4 {
+    font-family: 'Rubik', sans-serif;
+    padding-top: 25px;
+    font-size: 30px;
+    color: white;
+}
+
+
+.box6 {
+    text-align: center;
+}
+
+.box6 h4 {
+    padding-top: 40px;
+}
+
+.contact {
+    font-family: 'Rubik', sans-serif;
+    background: #FFFFFF;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sidebar1 {
+    margin-top: 40px;
+    justify-content: center;
+    padding: 30px;
+    display: flex;
+    gap: 100px;
+}
+
+.container7 {
+    display: flex;
+}
+
+.footer {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    font-size: 16px;
+    text-align: center;
+    background: #CBF1F5;
+}
+
+.footer a {
+    color: black;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 600px) {
     .container1 {
         display: block;
     }
+
+    #heading {
+        font-family: 'Rubik', sans-serif;
+        text-align: center;
+        font-size:42px;
+    }
+
+    #home {
+        font-family: 'Rubik', sans-serif;
+        font-size: 42px;
+        text-align: center;
+    }
+
 
     .boxflex {
         display: block;
@@ -319,8 +464,10 @@ body {
         font-size: 36px;
     }
 
-    .topnav {
-        margin-left: 55%;
+    .icon {
+        position: absolute;
+        right: 5%;
+        top: 3.5%;
     }
 
     .container2 {
@@ -394,144 +541,13 @@ body {
         margin: auto;
     }
 
-    .newbox p{
-     font-size: 20px;
+    .newbox p {
+        font-size: 20px;
     }
 
     .footer {
-       
+
         flex-direction: column;
-      
+
     }
-}
-
-.container4 {
-    padding: 10px;
-    background: rgba(113, 201, 206, 0.6);
-}
-
-.container4 h4 {
-    font-family: 'Rubik', sans-serif;
-    text-align: center;
-    font-size: 54px;
-}
-
-
-.container4 h4 {
-    font-family: 'Rubik', sans-serif;
-    font-size: 44px;
-}
-
-.tip2 {
-    margin-bottom: 2%;
-}
-
-.secondary {
-    display: flex;
-    justify-content: space-around;
-    height: auto;
-}
-
-.textschool {
-    font-family: 'Rubik', sans-serif;
-    padding-left: 2.5%;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.homework {
-    display: flex;
-    justify-content: space-around;
-}
-
-.container5 {
-    background: #CBF1F5;
-    padding: 10px;
-}
-
-.container5 h4 {
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
-    font-size: 44px;
-}
-
-.newera {
-    margin-bottom: 2.5%;
-}
-
-.textuni {
-    display: flex;
-    justify-content: center;
-}
-
-.newbox {
-    margin-top: 2%;
-    margin-left: 6%;
-}
-
-.newbox{
-    font-family: 'Rubik', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-
-.container6 {
-    padding: 10px;
-    background: #363434;
-}
-
-.container6 h4 {
-    font-family: 'Rubik', sans-serif;
-    padding-top: 25px;
-    font-size: 30px;
-    color: white;
-}
-
-
-.box6 {
-    text-align: center;
-}
-
-.box6 h4 {
-    padding-top: 40px;
-}
-
-.contact {
-    font-family: 'Rubik', sans-serif;
-    background: #FFFFFF;
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.sidebar1 {
-    margin-top: 40px;
-    justify-content: center;
-    padding: 30px;
-    display: flex;
-    gap: 100px;
-}
-
-.container7 {
-    display: flex;
-}
-
-.footer {
-    font-family: 'Rubik', sans-serif;
-    display: flex;
-    flex: 1;
-    justify-content: space-around;
-    font-size: 16px;
-    text-align: center;
-    background: #CBF1F5;
-}
-
-.footer a {
-    color: black;
-    margin-top: 15px;
-    text-decoration: none;
 }
