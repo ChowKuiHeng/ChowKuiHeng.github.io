@@ -149,36 +149,99 @@ body {
     margin-top: -15%;
 }
 
-#heading {
+.container2 h2 {
     font-family: 'Rubik', sans-serif;
     padding-top: 10px;
     text-align: center;
     font-size: 58px;
 }
 
-.container3 {
-    padding: 10px;
-    background: #CBF1F5;
+.lebronbox {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
 }
 
-.workbox {
-    margin-top: 2%;
-    margin-bottom: 2%;
+.lebronbox img {
+    margin-left: 3%;
+}
+
+.lebronbox p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 8%;
+    margin-left: 2%;
+}
+
+.lebronbox1 {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.lebronbox1 p {
+    margin-top: 10%;
+    margin-left: 9%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
     text-align: center;
 }
 
-.button {
-    margin-top: 2%;
+.lebronbox1 img {
+    margin-left: 10%;
+    padding-bottom: 2%;
 }
 
-.button a {
+.container3 {
+    padding: 10px 50px;
+    background: #CBF1F5;
+}
+
+.feliksbox {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+
+}
+
+.feliksbox p {
     font-family: 'Rubik', sans-serif;
-    padding: 10px 40px;
-    text-decoration: none;
-    background: #71C9CE;
-    color: white;
+    font-size: 30px;
     font-weight: bold;
-    width: fit-content;
+    margin-top: 8%;
+    margin-right: 10%;
+}
+
+.feliksbox1 {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feliksbox1 img {
+    padding-bottom: 2%;
+}
+
+.feliksbox1 p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 8%;
+    margin-left: 1%;
+    text-align: center;
+}
+
+.container3 h2 {
+    font-family: 'Rubik', sans-serif;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 58px;
 }
 
 .container4 {
@@ -247,7 +310,7 @@ body {
         display: block;
     }
 
-    .gitlogo img {
+    .favourlogo img {
         width: 30%;
     }
 
@@ -279,37 +342,6 @@ body {
     #heading {
         font-size: 30px;
     }
-
-    .container3 {
-        height: auto;
-    }
-
-    .workbox {
-        flex-direction: column;
-    }
-
-    .workbox img {
-        width: 75%;
-    }
-
-    .button {
-        margin-top: 5%;
-    }
-
-    .boxbron {
-        display: block;
-        flex-direction: column;
-        margin: auto;
-    }
-
-    .lebron {
-        margin: auto;
-    }
-
-    .textbron {
-        font-size: 14px;
-    }
-
 
     .homework {
         display: block;
