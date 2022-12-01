@@ -306,12 +306,9 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .container1 {
-        display: block;
-    }
 
     .favourlogo img {
-        width: 30%;
+        width: 20%;
     }
 
     .header {
@@ -335,17 +332,81 @@ body {
         top: 3.5%;
     }
 
-    .container2 {
-        display: block;
+    .container2 h2 {
+        font-size: 40px;
     }
 
-    #heading {
-        font-size: 30px;
-    }
-
-    .homework {
+    .lebronbox {
         display: block;
         flex-direction: column;
+        margin: auto;
+    }
+
+    .lebronbox p {
+        font-size: 24px;
+        text-align: center;
+    }
+
+
+    .lebronbox1 {
+        display: block;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .lebronbox1 p {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .lebronbox img {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .lebronbox1 img {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+
+    .container3 h2 {
+        font-size: 40px;
+    }
+
+    .feliksbox {
+        display: block;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .feliksbox p {
+        font-size: 24px;
+        text-align: center;
+    }
+
+
+    .feliksbox1 {
+        display: block;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .feliksbox1 p {
+        font-size: 24px;
+    }
+
+    .feliksbox img {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .feliksbox1 img {
+        display: flex;
+        justify-content: center;
         margin: auto;
     }
 
