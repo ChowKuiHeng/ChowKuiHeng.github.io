@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chow Kui Heng</title>
+    <link rel="stylesheet" type="text/css" href="cssfile/contact.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ddb030312e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="img/kuihenglogo.png" alt="" width="70px" height="70px" />
+      </div>
+      <div class="topnav" id="myTopnav">
+        <a href="https://chowkuiheng.github.io/assignment/" class="active"
+          >Home</a
+        >
+        <a href="aboutme.html">About Me</a>
+        <a href="mywork.html">My Work</a>
+        <a href="myfavourite.html">My Favourite</a>
+        <a href="#contact">Contact</a>
+        <a class="icon" onclick="openNav()">&#9776; </a>
+      </div>
+    </div>
+    <div class="container1">
+      <div class="text1">
+        <h3>Contact</h3>
+        <div class="word">
+          Any question or remarks? Just write me a message!
+        </div>
+      </div>
+    </div>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div class="overlay-content">
+        <a href="https://chowkuiheng.github.io/assignment/">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="mywork.html">My Work</a>
+        <a href="myfavourite.html">My Favourite</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+    <div class="container2">
+      <div class="contactbox">
+        <h3>Contact Information</h3>
+        <p>Say something to start a live chat!</p>
+      </div>
+
+      <div class="box1">
+        <div class="sidebar">
+          <img src="img/phonelogo.png" />
+
+          <img src="img/emaillogo.png" />
+
+          <img src="img/mapslogo.png" />
+        </div>
+        <div class="textsidebar">
+          <p>019-9486867</p>
+          <p>chowkuiheng1018@e.newera.edu.my</p>
+          <p>A20, KAMPUNG PULAI 18300 GUA MUSANG KELANTAN</p>
+        </div>
+      </div>
+      <div class="box2"></div>
+    </div>
+    <div class="container3">
+      <div class="box4">
+        <h4>Get in touch</h4>
+        <button class="contact">Contact</button>
+        <div class="sidebar1">
+          <a href="https://www.facebook.com/kuihengchow/" target="_new"
+            ><img src="img/facebooklogo.png" width="35px"
+          /></a>
+          <a href="https://www.instagram.com/jackiechow6867/" target="_new"
+            ><img src="img/instagram.png" width="35px"
+          /></a>
+          <a href="mailto:chowkuiheng1018@e.newera.edu.my" target="_new"
+            ><img src="img/gmail.png" width="35px"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <div class="container4">
+      <div class="footer">
+        <p>Copyright © 2022 All Rights Reserved</p>
+        <a href="https://chowkuiheng.github.io/assignment/">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="mywork.html">My Work</a>
+        <a href="myfavourite.html">My Favourite</a>
+        <a href="#">Contact</a>
+        <p>Term of Use &nbsp;&nbsp;Privacy Policy</p>
+      </div>
+    </div>
+  </body>
+</html>
