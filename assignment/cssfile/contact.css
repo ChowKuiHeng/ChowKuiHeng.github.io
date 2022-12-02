@@ -192,6 +192,59 @@ body {
     padding-top: 40px;
 }
 
+
+.container {
+    margin: auto;
+    width: 75%;
+}
+
+.bigbox{
+    display: flex;
+}
+
+.namebox {
+    width: 45%;
+    padding: 10px 10px;
+
+}
+
+.email {
+    display: flex;
+
+}
+
+.namebox1 {
+    width: 94%;
+    padding: 10px 10px;
+    margin-top: 10px;
+
+}
+
+.namebox2 {
+    width: 45%;
+    padding: 10px 10px;
+    margin-top: 10px;
+
+}
+
+.namebox3 {
+    width: 45%;
+    padding: 10px 10px;
+    margin-top: 10px;
+
+}
+
+
+.boxsubmit {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.boximg {
+    padding: 10px 30px;
+}
+
+
 .contact {
     font-family: 'Rubik', sans-serif;
     background: #FFFFFF;

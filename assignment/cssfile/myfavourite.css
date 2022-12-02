@@ -333,7 +333,7 @@ body {
     }
 
     .container2 h2 {
-        font-size: 40px;
+        font-size: 34px;
     }
 
     .lebronbox {
@@ -343,7 +343,7 @@ body {
     }
 
     .lebronbox p {
-        font-size: 24px;
+        font-size: 20px;
         text-align: center;
     }
 
@@ -355,17 +355,19 @@ body {
     }
 
     .lebronbox1 p {
-        font-size: 24px;
+        font-size: 20px;
         text-align: center;
     }
 
     .lebronbox img {
+        width: 50%;
         display: flex;
         justify-content: center;
         margin: auto;
     }
 
     .lebronbox1 img {
+        width: 50%;
         display: flex;
         justify-content: center;
         margin: auto;
@@ -373,7 +375,7 @@ body {
 
 
     .container3 h2 {
-        font-size: 40px;
+        font-size: 34px;
     }
 
     .feliksbox {
@@ -383,7 +385,7 @@ body {
     }
 
     .feliksbox p {
-        font-size: 24px;
+        font-size: 20px;
         text-align: center;
     }
 
@@ -395,16 +397,18 @@ body {
     }
 
     .feliksbox1 p {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .feliksbox img {
+        width: 50%;
         display: flex;
         justify-content: center;
         margin: auto;
     }
 
     .feliksbox1 img {
+        width: 50%;
         display: flex;
         justify-content: center;
         margin: auto;
