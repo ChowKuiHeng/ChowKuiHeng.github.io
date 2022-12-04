@@ -327,8 +327,13 @@ body {
         margin-top: 3%;
     }
 
+
     .container{
         width: auto;
+    }
+
+    .container input{
+        width: 40% ;
     }
 
 
