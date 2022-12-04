@@ -318,24 +318,29 @@ body {
         display: block;
         flex-direction: column;
     }
-    
-    .box1{
-       margin: 5%;
-    }   
 
-    .namebox{
+    .box1 {
+        margin: auto;
+    }
+
+    .namebox {
         margin-top: 3%;
     }
 
 
-    .container{
+    .container {
         width: auto;
     }
 
-    .container input{
-        width: 40% ;
+    .container input {
+        width: 40%;
     }
 
+
+    .genderbox input {
+        width: 10%;
+
+    }
 
     .footer {
         flex-direction: column;
