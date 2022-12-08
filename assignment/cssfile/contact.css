@@ -144,6 +144,10 @@ body {
     padding: 10px 30px;
 }
 
+.contactbox{
+    font-family: 'Rubik', sans-serif;
+}
+
 .container2 h2 {
     font-family: 'Rubik', sans-serif;
     padding-top: 10px;
@@ -167,6 +171,10 @@ body {
 .textsidebar {
     display: flex;
     flex-direction: column;
+}
+
+.textsidebar p {
+    font-family: 'Rubik', sans-serif;
 }
 
 .container3 {
