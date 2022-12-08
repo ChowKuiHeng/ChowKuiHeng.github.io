@@ -328,6 +328,7 @@ body {
 .footer a {
     color: black;
     margin-top: 15px;
+    margin-bottom: 15px;
     text-decoration: none;
 }
 
