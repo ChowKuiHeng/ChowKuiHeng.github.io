@@ -3,13 +3,6 @@ body {
     margin: auto;
 }
 
-.header {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    background-color: #E3FDFD;
-}
-
 
 .logo {
     margin-left: 25px;
