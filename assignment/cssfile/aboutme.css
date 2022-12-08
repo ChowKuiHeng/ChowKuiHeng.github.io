@@ -343,7 +343,8 @@ body {
 
 .textuni {
     display: flex;
-    justify-content: center;
+    gap: 5%;
+    padding-left: 9%;
 }
 
 .newbox {
